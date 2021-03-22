@@ -1,7 +1,15 @@
-let request = require("request");
-let cheerio = require("cheerio");
-let url = "https://github.com/topics"
-let fs = require("fs")
-let path = require("path")
+const { fs, path, cheerio, creareDir, request } = require("./includes");
+const allMatches = require("./modules/allMatches");
+const makeTeams = require("./modules/makeTeams");
 
-fs.mkdirSync("IPL 2020");
+
+
+creareDir("IPL 2020")
+
+const teams__url = "https://www.espncricinfo.com/series/ipl-2020-21-1210595/points-table-standings"
+makeTeams(teams__url)
+
+
+let all__matches = "https://www.espncricinfo.com/series/ipl-2020-21-1210595/match-results"
+
+allMatches(all__matches)
