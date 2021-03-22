@@ -12,7 +12,7 @@ Details of an object includes
 
 
 Example Object 
-<code>
+<code><pre>
 [
     {
         "result": "Mum Indians won by 10 wickets (with 46 balls remaining)",
@@ -147,4 +147,5 @@ Example Object
         "venue": "Abu Dhabi"
     }
 ]
+</pre>
 </code>
