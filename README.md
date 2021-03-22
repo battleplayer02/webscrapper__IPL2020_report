@@ -12,6 +12,7 @@ Details of an object includes
 
 
 Example Object 
+<code>
 [
     {
         "result": "Mum Indians won by 10 wickets (with 46 balls remaining)",
@@ -146,3 +147,4 @@ Example Object
         "venue": "Abu Dhabi"
     }
 ]
+</code>
