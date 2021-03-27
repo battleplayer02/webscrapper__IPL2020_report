@@ -13,6 +13,8 @@ module.exports=(url)=>{
                 let matchURL = "https://www.espncricinfo.com"+selectorTool(matchdata[2]).attr("href")
                 goToMatchURL(matchURL);
                 // console.log(matchURL);
+
+                
             }
         }
     })

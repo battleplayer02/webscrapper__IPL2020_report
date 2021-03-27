@@ -11,5 +11,6 @@ makeTeams(teams__url)
 
 
 let all__matches = "https://www.espncricinfo.com/series/ipl-2020-21-1210595/match-results"
-
+console.log("before");
 allMatches(all__matches)
+console.log("after");
